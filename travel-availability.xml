@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>mondiale94-oss</Author>
+  <LastAuthor>mondiale94-oss</LastAuthor>
+  <Created>2026-08-03T20:40:00Z</Created>
+  <Company></Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8130</WindowHeight>
+  <WindowWidth>15135</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>45</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+
+ <!-- Input sheet -->
+ <Worksheet ss:Name="Input">
+  <Table>
+   <Row>
+    <Cell><Data ss:Type="String">الاسم</Data></Cell>
+    <Cell><Data ss:Type="String">دولة A من</Data></Cell>
+    <Cell><Data ss:Type="String">دولة A إلى</Data></Cell>
+    <Cell><Data ss:Type="String">دولة B من</Data></Cell>
+    <Cell><Data ss:Type="String">دولة B إلى</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">أحمد</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2026-08-03T00:00:00</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2026-08-08T00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String"/></Cell>
+    <Cell><Data ss:Type="String"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">منى</Data></Cell>
+    <Cell><Data ss:Type="String"/>
+    </Cell>
+    <Cell><Data ss:Type="String"/>
+    </Cell>
+    <Cell><Data ss:Type="DateTime">2026-08-03T00:00:00</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2026-08-13T00:00:00</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <!-- Dates sheet -->
+ <Worksheet ss:Name="Dates">
+  <Table>
+   <Row>
+    <Cell><Data ss:Type="String">التاريخ</Data></Cell>
+    <Cell><Data ss:Type="String">متاح في دولة A</Data></Cell>
+    <Cell><Data ss:Type="String">متاح في دولة B</Data></Cell>
+   </Row>
